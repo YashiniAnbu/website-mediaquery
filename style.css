@@ -8,8 +8,12 @@ body {
   background: #f3f3f3;
 }
 .container {
-  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 20px;
+  height: 100vh;
+  
 }
 .header {
   text-align: center;
